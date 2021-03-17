@@ -8,3 +8,4 @@
 **Project 2 -** Part 1 of MNIST digit recognition. Built linear regression, SVM, and softmax tools from scratch.
 
 **Project 3 -** Part 2 of MNIST digit recognition. Built feed-forward neural network from scratch, used PyTorch to build more complex NNs and CNNs.
+Model recognizes MNIST images with one and two digits.
