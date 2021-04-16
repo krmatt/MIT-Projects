@@ -145,6 +145,11 @@ def perceptron(feature_matrix, labels, T):
     return (theta, theta_0)
 #pragma: coderesponse end
 
+feature_matrix = np.array([[0,0], [2,0], [3,0], [0,2], [2,2], [5,1], [5,2], [2,4], [4,4], [5,5]])
+labels = np.array([-1, -1, -1, -1, -1, 1, 1, 1, 1, 1])
+T = 11
+
+print(perceptron(feature_matrix, labels, T))
 
 #pragma: coderesponse template
 def average_perceptron(feature_matrix, labels, T):
